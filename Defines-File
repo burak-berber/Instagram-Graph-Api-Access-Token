@@ -1,0 +1,8 @@
+<?php
+	session_start();
+
+	define( 'FACEBOOK_APP_ID', 'App Id girilmesi gerekmektedir' );
+	define( 'FACEBOOK_APP_SECRET', 'App Secret Girilmesi Gerekmektedir' );
+	define( 'FACEBOOK_REDIRECT_URI', 'Redirect Url Girilmesi Gerekmektedir' );
+	define( 'ENDPOINT_BASE', 'https://graph.facebook.com/v5.0/' );
+?>
